@@ -21,7 +21,7 @@ import com.project.PCBuilder.rest.services.AccountsService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 
-
+@CrossOrigin(origins = "*") 
 @RestController
 @RequestMapping(value = "/api/v1/accounts", produces = MediaType.APPLICATION_JSON_VALUE)
 public class AccountsRestController {
